@@ -26,7 +26,7 @@ const HeroSection = () => {
       </div>
 
       <div className="absolute bottom-10 flex flex-wrap gap-4 justify-center">
-        {["ReactJS", "NextJS", "Tailwind CSS", "JavaScript", "GraphQL", "Figma"].map((skill, index) => (
+        {["ReactJS", "NextJS", "Tailwind CSS", "JavaScript", "Java", "Springboot", "React Native", "Python", "Flask", "Flutter" ].map((skill, index) => (
           <motion.div
             key={index}
             className="px-4 py-2 bg-gray-800 rounded-md text-sm shadow-lg"
