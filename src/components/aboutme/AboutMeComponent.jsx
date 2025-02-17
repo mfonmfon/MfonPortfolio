@@ -40,14 +40,21 @@ const AboutMeComponent = () => {
         >
           <h3 className="text-white text-3xl font-bold mb-6">Full-Stack Developer</h3>
           <p className="text-white text-lg leading-relaxed mb-6">
-            I am a passionate software engineer with over 2 years of experience in the tech industry. I specialize in building scalable and maintainable applications using modern technologies like Java, Spring Boot, JavaScript, React, and TypeScript.
+            I am a passionate software engineer with over 2 years of experience in the tech industry. I specialize in building scalable and maintainable applications using modern technologies like Java, Spring Boot, JavaScript, React, and React Native.
           </p>
           <p className="text-white text-lg leading-relaxed mb-6">
             My expertise spans both frontend and backend development, and I thrive in creating seamless user experiences while ensuring robust and efficient systems.
           </p>
-          <button className="px-8 py-3 bg-yellow-500 border-1 border-yellow text-white font-semibold rounded-lg hover:bg-yellow-600 transition-colors duration-300">
-            Download Resume
-          </button>
+          <button className="px-8 py-3 bg-yellow-500 border border-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-600 transition-colors duration-300">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1Xx6YhQrZ5J7qQ1h5j5j5j5j"
+            download="My_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+    Download Resume
+  </a>
+</button>
         </motion.div>
       </div>
     </div>
